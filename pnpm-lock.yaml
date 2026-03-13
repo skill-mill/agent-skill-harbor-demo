@@ -9,16 +9,16 @@ importers:
   .:
     dependencies:
       agent-skill-harbor:
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.8.1
+        version: 0.8.1
 
 packages:
 
-  agent-skill-harbor@0.1.0:
-    resolution: {integrity: sha512-5G6qZdOaO/BgoovjspXY6uwYTV7j2O4Ee0MY8v/5eUurOJiLoijGVe8kzHUQNujxlr7WHFgxzIm1e2Xrs1hYjA==}
+  agent-skill-harbor@0.8.1:
+    resolution: {integrity: sha512-n38MF712OuMBK//ihX0U65vHOWU48os+VyLq8aglqYLk63J/14MgYctCp9mnmbTc5sjdH5Q0PJqU7CL912X6wQ==}
     engines: {node: '>=24'}
     hasBin: true
 
 snapshots:
 
-  agent-skill-harbor@0.1.0: {}
+  agent-skill-harbor@0.8.1: {}
