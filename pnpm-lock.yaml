@@ -642,8 +642,9 @@ packages:
     resolution: {integrity: sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==}
     engines: {node: '>= 14'}
 
-  agent-skill-harbor-web@0.8.7:
-    resolution: {integrity: sha512-OuF49gjWQrIcyxiy8MtEkDiSbXsMaeuJZtcoe6N86CCw2z2pJ2enchiZtfylY///Igj0KiTYikd+w0ACQsYpow==}
+  agent-skill-harbor-web@0.9.2:
+    resolution: {integrity: sha512-QXJ5lGIM3kun1Thsrm0bBGiKsXWrPzp4CEBWfda3zx1RnLnQuNpI+fHjqDRRYkemsdNX2Hx6lIAY59PpdPvPZw==}
+    engines: {node: '>=24'}
 
   agent-skill-harbor@0.10.1:
     resolution: {integrity: sha512-lcs3H0zT8Tblkf7vMREe9TyplYd/3WasSk+Zyby4TRNDmBSS/ZXEID0rsVYAqWm+Q8l6ubUF3QaxTzhxQySTHA==}
@@ -1759,7 +1760,7 @@ snapshots:
 
   agent-base@7.1.4: {}
 
-  agent-skill-harbor-web@0.8.7(jiti@2.6.1)(lightningcss@1.31.1):
+  agent-skill-harbor-web@0.9.2(jiti@2.6.1)(lightningcss@1.31.1):
     dependencies:
       3d-force-graph: 1.79.1
       '@internationalized/date': 3.12.0
@@ -1807,7 +1808,7 @@ snapshots:
   agent-skill-harbor@0.10.1(jiti@2.6.1)(lightningcss@1.31.1):
     dependencies:
       '@octokit/rest': 21.1.1
-      agent-skill-harbor-web: 0.8.7(jiti@2.6.1)(lightningcss@1.31.1)
+      agent-skill-harbor-web: 0.9.2(jiti@2.6.1)(lightningcss@1.31.1)
       js-yaml: 4.1.1
     transitivePeerDependencies:
       - '@noble/hashes'
