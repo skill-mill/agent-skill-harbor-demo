@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       agent-skill-harbor:
-        specifier: ^0.8.4
-        version: 0.8.4(jiti@2.6.1)(lightningcss@1.31.1)
+        specifier: ^0.8.5
+        version: 0.8.5(jiti@2.6.1)(lightningcss@1.31.1)
 
 packages:
 
@@ -642,11 +642,11 @@ packages:
     resolution: {integrity: sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==}
     engines: {node: '>= 14'}
 
-  agent-skill-harbor-web@0.8.4:
-    resolution: {integrity: sha512-vooiuHuivkmq4VuY1HK3hjPH/SQwgCDjPWgnPbXbHEQH0SXttCKCIyaVG97wGANthITr58fiQk5cPTGW/+352Q==}
+  agent-skill-harbor-web@0.8.5:
+    resolution: {integrity: sha512-F38+9FYA4dlFuRxh1ksjhRDP4/E3RNpuN9SZLER+9nD7zw5DlTKpUj5lWZ3URukEYBTZs0wO4FbsCVlvcjnqwg==}
 
-  agent-skill-harbor@0.8.4:
-    resolution: {integrity: sha512-xsdqzW728OnCdENGdAd+e7LlBhCNQApdhP3051dE2S58QOhoLhCD1ByTdqMesBECu9pFgEJtODlZmdJLMy88NA==}
+  agent-skill-harbor@0.8.5:
+    resolution: {integrity: sha512-2g9wzwKQOkFct3i4SgtThy6grBMdv9INcPfGxhpbfqbPQdsnkueJs8C7I3Soztm1kBxbqnolx52S6iP7b9Xo0g==}
     engines: {node: '>=24'}
     hasBin: true
 
@@ -1759,7 +1759,7 @@ snapshots:
 
   agent-base@7.1.4: {}
 
-  agent-skill-harbor-web@0.8.4(jiti@2.6.1)(lightningcss@1.31.1):
+  agent-skill-harbor-web@0.8.5(jiti@2.6.1)(lightningcss@1.31.1):
     dependencies:
       3d-force-graph: 1.79.1
       '@internationalized/date': 3.12.0
@@ -1804,10 +1804,10 @@ snapshots:
       - typescript
       - yaml
 
-  agent-skill-harbor@0.8.4(jiti@2.6.1)(lightningcss@1.31.1):
+  agent-skill-harbor@0.8.5(jiti@2.6.1)(lightningcss@1.31.1):
     dependencies:
       '@octokit/rest': 21.1.1
-      agent-skill-harbor-web: 0.8.4(jiti@2.6.1)(lightningcss@1.31.1)
+      agent-skill-harbor-web: 0.8.5(jiti@2.6.1)(lightningcss@1.31.1)
       js-yaml: 4.1.1
     transitivePeerDependencies:
       - '@noble/hashes'
