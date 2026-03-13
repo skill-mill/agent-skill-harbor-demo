@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       agent-skill-harbor:
-        specifier: ^0.8.3
-        version: 0.8.3(jiti@2.6.1)(lightningcss@1.31.1)
+        specifier: ^0.8.4
+        version: 0.8.4(jiti@2.6.1)(lightningcss@1.31.1)
 
 packages:
 
@@ -642,11 +642,11 @@ packages:
     resolution: {integrity: sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==}
     engines: {node: '>= 14'}
 
-  agent-skill-harbor-web@0.8.3:
-    resolution: {integrity: sha512-c77D0Afz5Gjch74YDa5MS4FJ6gfWgi9FY3zVmmIy1zbz/FH2NfLvKYvZdh56YYCMshm+dna4yERdVehKIkaAWg==}
+  agent-skill-harbor-web@0.8.4:
+    resolution: {integrity: sha512-vooiuHuivkmq4VuY1HK3hjPH/SQwgCDjPWgnPbXbHEQH0SXttCKCIyaVG97wGANthITr58fiQk5cPTGW/+352Q==}
 
-  agent-skill-harbor@0.8.3:
-    resolution: {integrity: sha512-tNya2zlWe0DkLDfGpydt6byxjmsUmNrkXOQ9B/Ui1rDFArGlHc73bpz41ZUeNAsQNgrxrVPOxtKagM+5hy977Q==}
+  agent-skill-harbor@0.8.4:
+    resolution: {integrity: sha512-xsdqzW728OnCdENGdAd+e7LlBhCNQApdhP3051dE2S58QOhoLhCD1ByTdqMesBECu9pFgEJtODlZmdJLMy88NA==}
     engines: {node: '>=24'}
     hasBin: true
 
@@ -846,6 +846,9 @@ packages:
   fuse.js@7.1.0:
     resolution: {integrity: sha512-trLf4SzuuUxfusZADLINj+dE8clK1frKdmqiJNb1Es75fmI5oY6X2mxLVUciLLjxqw/xr72Dhy+lER6dGd02FQ==}
     engines: {node: '>=10'}
+
+  github-slugger@2.0.0:
+    resolution: {integrity: sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw==}
 
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
@@ -1756,7 +1759,7 @@ snapshots:
 
   agent-base@7.1.4: {}
 
-  agent-skill-harbor-web@0.8.3(jiti@2.6.1)(lightningcss@1.31.1):
+  agent-skill-harbor-web@0.8.4(jiti@2.6.1)(lightningcss@1.31.1):
     dependencies:
       3d-force-graph: 1.79.1
       '@internationalized/date': 3.12.0
@@ -1770,6 +1773,7 @@ snapshots:
       clsx: 2.1.1
       dompurify: 3.3.1
       fuse.js: 7.1.0
+      github-slugger: 2.0.0
       gray-matter: 4.0.3
       isomorphic-dompurify: 3.0.0
       js-yaml: 4.1.1
@@ -1800,10 +1804,10 @@ snapshots:
       - typescript
       - yaml
 
-  agent-skill-harbor@0.8.3(jiti@2.6.1)(lightningcss@1.31.1):
+  agent-skill-harbor@0.8.4(jiti@2.6.1)(lightningcss@1.31.1):
     dependencies:
       '@octokit/rest': 21.1.1
-      agent-skill-harbor-web: 0.8.3(jiti@2.6.1)(lightningcss@1.31.1)
+      agent-skill-harbor-web: 0.8.4(jiti@2.6.1)(lightningcss@1.31.1)
       js-yaml: 4.1.1
     transitivePeerDependencies:
       - '@noble/hashes'
@@ -2017,6 +2021,8 @@ snapshots:
     optional: true
 
   fuse.js@7.1.0: {}
+
+  github-slugger@2.0.0: {}
 
   graceful-fs@4.2.11: {}
 
