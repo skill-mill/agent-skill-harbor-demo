@@ -10,6 +10,6 @@
     "preview": "harbor preview"
   },
   "dependencies": {
-    "agent-skill-harbor": "^0.10.3"
+    "agent-skill-harbor": "^0.10.4"
   }
 }
