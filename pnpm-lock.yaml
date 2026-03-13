@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       agent-skill-harbor:
-        specifier: ^0.8.7
-        version: 0.8.7(jiti@2.6.1)(lightningcss@1.31.1)
+        specifier: ^0.10.1
+        version: 0.10.1(jiti@2.6.1)(lightningcss@1.31.1)
 
 packages:
 
@@ -645,8 +645,8 @@ packages:
   agent-skill-harbor-web@0.8.7:
     resolution: {integrity: sha512-OuF49gjWQrIcyxiy8MtEkDiSbXsMaeuJZtcoe6N86CCw2z2pJ2enchiZtfylY///Igj0KiTYikd+w0ACQsYpow==}
 
-  agent-skill-harbor@0.8.7:
-    resolution: {integrity: sha512-7PoT/jiQzKFZF6N04pyiWumzRJFshoBNa4Yhi/uROAqhKREBQaMDGgemytfFBcNLuOJtQWTP6pV4WbI0i/6OZg==}
+  agent-skill-harbor@0.10.1:
+    resolution: {integrity: sha512-lcs3H0zT8Tblkf7vMREe9TyplYd/3WasSk+Zyby4TRNDmBSS/ZXEID0rsVYAqWm+Q8l6ubUF3QaxTzhxQySTHA==}
     engines: {node: '>=24'}
     hasBin: true
 
@@ -1804,7 +1804,7 @@ snapshots:
       - typescript
       - yaml
 
-  agent-skill-harbor@0.8.7(jiti@2.6.1)(lightningcss@1.31.1):
+  agent-skill-harbor@0.10.1(jiti@2.6.1)(lightningcss@1.31.1):
     dependencies:
       '@octokit/rest': 21.1.1
       agent-skill-harbor-web: 0.8.7(jiti@2.6.1)(lightningcss@1.31.1)
