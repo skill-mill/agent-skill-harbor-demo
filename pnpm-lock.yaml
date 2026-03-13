@@ -1,0 +1,24 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      agent-skill-harbor:
+        specifier: ^0.1.0
+        version: 0.1.0
+
+packages:
+
+  agent-skill-harbor@0.1.0:
+    resolution: {integrity: sha512-5G6qZdOaO/BgoovjspXY6uwYTV7j2O4Ee0MY8v/5eUurOJiLoijGVe8kzHUQNujxlr7WHFgxzIm1e2Xrs1hYjA==}
+    engines: {node: '>=24'}
+    hasBin: true
+
+snapshots:
+
+  agent-skill-harbor@0.1.0: {}
