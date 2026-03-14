@@ -1,10 +1,8 @@
-# Skill governance policies
-# Each key is a skill path (github.com/{org}/{repo}/{skillPath})
-# Supported usage_policy values: recommended, discouraged, prohibited, none
+# Sample governance policies for local development
 policies:
   github.com/example-org/internal-tools/skills/manual-db-migration/SKILL.md:
     usage_policy: prohibited
-    note: "Use the migration framework instead of raw SQL"
+    note: 'Use the migration framework instead of raw SQL'
   github.com/anthropics/skills/skills/frontend-design/SKILL.md:
     usage_policy: recommended
-    note: "Approved for production use"
+    note: 'Approved for production use'

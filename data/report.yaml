@@ -1,0 +1,1499 @@
+results:
+  github.com/skill-mill/sk-ai-dev-tools/.claude/skills/prompt-engineering/SKILL.md:
+    tree_sha: a39eaa1bfda7336964f1fc30be7cdd6525223908
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-ai-dev-tools/skills/doc-coauthoring/SKILL.md:
+    tree_sha: 8f9e73bcb5e28b981b150c49295ee97c1f825bd5
+    engines:
+      static:
+        result: warn
+        summary: 1 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 310
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+  github.com/skill-mill/sk-azure-integration/.github/plugins/azure-sdk-typescript/skills/azure-ai-projects-ts/SKILL.md:
+    tree_sha: 6535bad97fe4cc79994f944af1cb65df7091e8cf
+    engines:
+      static:
+        result: warn
+        summary: 20 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 41
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 157
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: references/acceptance-criteria.md
+            line: 4
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/acceptance-criteria.md
+            line: 59
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/acceptance-criteria.md
+            line: 68
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/acceptance-criteria.md
+            line: 105
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/acceptance-criteria.md
+            line: 512
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/acceptance-criteria.md
+            line: 513
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: references/acceptance-criteria.md
+            line: 520
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/connections.md
+            line: 26
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/connections.md
+            line: 59
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/connections.md
+            line: 100
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/connections.md
+            line: 111
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/connections.md
+            line: 155
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/connections.md
+            line: 200
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: references/connections.md
+            line: 208
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/evaluations.md
+            line: 18
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/evaluations.md
+            line: 27
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: references/evaluations.md
+            line: 313
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: references/evaluations.md
+            line: 314
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+  github.com/skill-mill/sk-azure-integration/.github/plugins/azure-sdk-typescript/skills/azure-cosmos-ts/SKILL.md:
+    tree_sha: 475d65897f84387f473bc09c59183c138f5a25f0
+    engines:
+      static:
+        result: warn
+        summary: 20 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 49
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 61
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 62
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 66
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 433
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 434
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: references/acceptance-criteria.md
+            line: 4
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/acceptance-criteria.md
+            line: 58
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/acceptance-criteria.md
+            line: 69
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/acceptance-criteria.md
+            line: 70
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/acceptance-criteria.md
+            line: 79
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: references/acceptance-criteria.md
+            line: 89
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/acceptance-criteria.md
+            line: 99
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/acceptance-criteria.md
+            line: 428
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/acceptance-criteria.md
+            line: 429
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: references/bulk-operations.md
+            line: 468
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: references/bulk-operations.md
+            line: 469
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: references/query-patterns.md
+            line: 363
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: references/query-patterns.md
+            line: 395
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: references/query-patterns.md
+            line: 396
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+  github.com/skill-mill/sk-code-quality/.claude/skills/code-review-standards/SKILL.md:
+    tree_sha: fbf32b99d3e4c29d8634fd4951814ce376d7b7e5
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-code-quality/.claude/skills/linting-guide/SKILL.md:
+    tree_sha: e11f547a03ffae4baeaac6d06a08cde5e639e4b3
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-code-quality/skills/webapp-testing/SKILL.md:
+    tree_sha: b6981210579ee9e740c2d0540ee07d38bffa9f67
+    engines:
+      static:
+        result: warn
+        summary: 1 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 63
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+  github.com/skill-mill/sk-creative-tools/.claude/skills/svg-generator/SKILL.md:
+    tree_sha: bb5f4a054bb23d3a155cd65e662e17de4c4dcc42
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-creative-tools/skills/pptx/SKILL.md:
+    tree_sha: 724acd5db0b4cd87ae5c8e67a562c3b5d8a67e18
+    engines:
+      static:
+        result: warn
+        summary: 4 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: Low-transparency instruction pattern detected.
+            file: pptxgenjs.md
+            line: 38
+            category: transparency
+            references:
+              - 2026-ASI10
+          - level: warn
+            summary: External communication pattern detected.
+            file: pptxgenjs.md
+            line: 146
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: pptxgenjs.md
+            line: 164
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: pptxgenjs.md
+            line: 258
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+  github.com/skill-mill/sk-creative-tools/skills/xlsx/SKILL.md:
+    tree_sha: 768220daefdd997db21b6eaa6a934a6b0d1fdce0
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-data-pipeline/.claude/skills/data-validation/SKILL.md:
+    tree_sha: da6f22631cd9dfaede75e9ba35b511920045cebd
+    engines:
+      static:
+        result: warn
+        summary: 1 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: Supply-chain or provenance-related reference detected.
+            file: SKILL.md
+            line: 10
+            category: provenance_trust
+            references:
+              - 2026-ASI07
+              - 2026-ASI09
+  github.com/skill-mill/sk-data-pipeline/.claude/skills/etl-pipeline/SKILL.md:
+    tree_sha: 71e7d9be8be8258b15e91c192601961b4d4376d7
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-data-pipeline/.claude/skills/sql-optimization/SKILL.md:
+    tree_sha: 8802a90af7c43b06eec2e49d0a1b8711bd71b92a
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-database-patterns/.claude/skills/migration-strategy/SKILL.md:
+    tree_sha: 60ab74554efc04fe33309fd1ebc1696bba885fe8
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-database-patterns/.claude/skills/schema-design/SKILL.md:
+    tree_sha: 0e6b0964d3e12b87ea5e3d8773b358413687225d
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-devops-handbook/.claude/skills/ci-cd-pipeline/SKILL.md:
+    tree_sha: 7c919318652efe2ce5c449e8d194bbc4e396e7b5
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-devops-handbook/.claude/skills/docker-best-practices/SKILL.md:
+    tree_sha: cedfded5fbb45b3df86d68388c0b1ef11dfc6d0c
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-devops-handbook/packer/builders/skills/aws-ami-builder/SKILL.md:
+    tree_sha: a9804880cfa7ffd35ffbe6c79a1d767ced02d94e
+    engines:
+      static:
+        result: warn
+        summary: 6 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 13
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Elevated privilege or unsafe permission pattern detected.
+            file: SKILL.md
+            line: 66
+            category: permission_scope
+            references:
+              - 2026-ASI04
+              - 2026-ASI05
+          - level: warn
+            summary: Elevated privilege or unsafe permission pattern detected.
+            file: SKILL.md
+            line: 67
+            category: permission_scope
+            references:
+              - 2026-ASI04
+              - 2026-ASI05
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 134
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 172
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 173
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+  github.com/skill-mill/sk-doc-tools/.claude/skills/api-docs-generator/SKILL.md:
+    tree_sha: a65ee86ffa6c94858df285dcccdec6b0723cecb4
+    engines:
+      static:
+        result: warn
+        summary: 1 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: Low-transparency instruction pattern detected.
+            file: SKILL.md
+            line: 10
+            category: transparency
+            references:
+              - 2026-ASI10
+  github.com/skill-mill/sk-doc-tools/skills/docx/SKILL.md:
+    tree_sha: 4553e57ac3de173a7711907ac071d331be50d811
+    engines:
+      static:
+        result: warn
+        summary: 1 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 266
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+  github.com/skill-mill/sk-doc-tools/skills/pdf/SKILL.md:
+    tree_sha: b483b892bd196d7bb9b8892c84dd24016a8cd81d
+    engines:
+      static:
+        result: warn
+        summary: 9 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 222
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 223
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 286
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 296
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: reference.md
+            line: 333
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: reference.md
+            line: 339
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: reference.md
+            line: 340
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: reference.md
+            line: 571
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: reference.md
+            line: 577
+            category: data_handling
+            references:
+              - 2026-ASI06
+  github.com/skill-mill/sk-frontend-kit/.claude/skills/css-architecture/SKILL.md:
+    tree_sha: 5e641b779016d4f2005bdb90e7e356acac7f9e92
+    engines:
+      static:
+        result: warn
+        summary: 1 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 10
+            category: data_handling
+            references:
+              - 2026-ASI06
+  github.com/skill-mill/sk-frontend-kit/skills/algorithmic-art/SKILL.md:
+    tree_sha: 57a7d98d640a260f122b151fc595403e82241565
+    engines:
+      static:
+        result: warn
+        summary: 1 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 286
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+  github.com/skill-mill/sk-frontend-kit/skills/frontend-design/SKILL.md:
+    tree_sha: cbb7590815f37088a95e38ccc7b4e7753def172f
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-infra-automation/.claude/skills/kubernetes-deploy/SKILL.md:
+    tree_sha: bf8296540b4ecd1f25d9aaf327b876bdd822b01d
+    engines:
+      static:
+        result: warn
+        summary: 1 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 12
+            category: data_handling
+            references:
+              - 2026-ASI06
+  github.com/skill-mill/sk-infra-automation/terraform/code-generation/skills/terraform-style-guide/SKILL.md:
+    tree_sha: cae43a24f4a44cd9a1577777a8a291e81b55416c
+    engines:
+      static:
+        result: warn
+        summary: 5 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 14
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 170
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 187
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 188
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 357
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+  github.com/skill-mill/sk-infra-automation/terraform/code-generation/skills/terraform-test/SKILL.md:
+    tree_sha: 0aaa10b9d4d2f47061a7da0f5969bf059ab12fc4
+    engines:
+      static:
+        result: warn
+        summary: 5 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 369
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 370
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 1673
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 1674
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 1675
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+  github.com/skill-mill/sk-mcp-toolkit/skills/mcp-builder/SKILL.md:
+    tree_sha: 2babf8fa928692cb7498ad569bea97396772affc
+    engines:
+      static:
+        result: fail
+        summary: 25 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 46
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 48
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 66
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 70
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 208
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 217
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: SKILL.md
+            line: 218
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: reference/evaluation.md
+            line: 444
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: reference/evaluation.md
+            line: 456
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: reference/evaluation.md
+            line: 469
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: fail
+            summary: Potentially dangerous code execution pattern detected.
+            file: reference/mcp_best_practices.md
+            line: 132
+            category: capability_risk
+            references:
+              - 2026-ASI03
+              - 2026-ASI05
+          - level: fail
+            summary: Potentially dangerous code execution pattern detected.
+            file: reference/node_mcp_server.md
+            line: 541
+            category: capability_risk
+            references:
+              - 2026-ASI03
+              - 2026-ASI05
+          - level: warn
+            summary: External communication pattern detected.
+            file: reference/node_mcp_server.md
+            line: 601
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: reference/node_mcp_server.md
+            line: 707
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: reference/node_mcp_server.md
+            line: 719
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: reference/node_mcp_server.md
+            line: 737
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: reference/node_mcp_server.md
+            line: 739
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: reference/node_mcp_server.md
+            line: 744
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: fail
+            summary: Potentially dangerous code execution pattern detected.
+            file: reference/node_mcp_server.md
+            line: 857
+            category: capability_risk
+            references:
+              - 2026-ASI03
+              - 2026-ASI05
+          - level: warn
+            summary: External communication pattern detected.
+            file: reference/python_mcp_server.md
+            line: 43
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: reference/python_mcp_server.md
+            line: 353
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: reference/python_mcp_server.md
+            line: 511
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: reference/python_mcp_server.md
+            line: 513
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: reference/python_mcp_server.md
+            line: 517
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: fail
+            summary: Potentially dangerous code execution pattern detected.
+            file: reference/python_mcp_server.md
+            line: 634
+            category: capability_risk
+            references:
+              - 2026-ASI03
+              - 2026-ASI05
+  github.com/skill-mill/sk-onboarding-kit/.claude/skills/new-dev-setup/SKILL.md:
+    tree_sha: e6ee12d08a71b5d4535745f91fcc2cdbb0df9dd9
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-onboarding-kit/.claude/skills/pr-standards/SKILL.md:
+    tree_sha: 0d4726a5acb984a2835a925522f247aa2409fc92
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-onboarding-kit/skills/skill-creator/SKILL.md:
+    tree_sha: a69ca6efe6fb59c19e17a098dd0c8d56b2d8b899
+    engines:
+      static:
+        result: fail
+        summary: 4 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 240
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 269
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: fail
+            summary: Potentially dangerous code execution pattern detected.
+            file: SKILL.md
+            line: 460
+            category: capability_risk
+            references:
+              - 2026-ASI03
+              - 2026-ASI05
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: agents/analyzer.md
+            line: 246
+            category: data_handling
+            references:
+              - 2026-ASI06
+  github.com/skill-mill/sk-platform-sdk/.claude/skills/api-gateway-config/SKILL.md:
+    tree_sha: f8b87c9168d2463a61a3be4503f0d14b703b412b
+    engines:
+      static:
+        result: warn
+        summary: 4 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: Supply-chain or provenance-related reference detected.
+            file: SKILL.md
+            line: 8
+            category: provenance_trust
+            references:
+              - 2026-ASI07
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 10
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 12
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Supply-chain or provenance-related reference detected.
+            file: SKILL.md
+            line: 12
+            category: provenance_trust
+            references:
+              - 2026-ASI07
+              - 2026-ASI09
+  github.com/skill-mill/sk-platform-sdk/.claude/skills/sdk-client-generator/SKILL.md:
+    tree_sha: 4d69919f954e11e8a4a6660d3cc24b9c98b80d4a
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-security-playbook/.claude/skills/dependency-scanner/SKILL.md:
+    tree_sha: 8a8e73c6f2f30c8aab75a7ce29eba47ad1bf0790
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-security-playbook/.claude/skills/secrets-detection/SKILL.md:
+    tree_sha: 7ef96e608dc7cd23a12cedda05d69f14fe573e74
+    engines:
+      static:
+        result: warn
+        summary: 3 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 3
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 8
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: SKILL.md
+            line: 12
+            category: data_handling
+            references:
+              - 2026-ASI06
+  github.com/skill-mill/sk-security-playbook/.claude/skills/security-audit/SKILL.md:
+    tree_sha: 8786bdc9998f001f5f576d89fd884dfade7c7faf
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-video-production/.claude/skills/video-editing-guide/SKILL.md:
+    tree_sha: 90bc5ae5e091db903b3c30d634499aa0c97bddc0
+    engines:
+      static:
+        result: pass
+        summary: No risky patterns detected in cached Markdown files.
+  github.com/skill-mill/sk-video-production/skills/remotion/SKILL.md:
+    tree_sha: d039623b97ee76e074e98008df6c571c26499a4d
+    engines:
+      static:
+        result: fail
+        summary: 52 potential issue(s) detected by the static audit engine.
+        findings:
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/assets.md
+            line: 71
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/assets.md
+            line: 72
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/audio-visualization.md
+            line: 18
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/audio-visualization.md
+            line: 37
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/audio-visualization.md
+            line: 91
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/audio-visualization.md
+            line: 163
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/audio.md
+            line: 35
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/calculate-metadata.md
+            line: 20
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/calculate-metadata.md
+            line: 110
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/can-decode.md
+            line: 50
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/charts.md
+            line: 61
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/compositions.md
+            line: 113
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/display-captions.md
+            line: 10
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/display-captions.md
+            line: 16
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/display-captions.md
+            line: 25
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/display-captions.md
+            line: 40
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: rules/display-captions.md
+            line: 155
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: rules/display-captions.md
+            line: 157
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: rules/display-captions.md
+            line: 161
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: rules/display-captions.md
+            line: 164
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/extract-frames.md
+            line: 109
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/extract-frames.md
+            line: 132
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/extract-frames.md
+            line: 172
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/extract-frames.md
+            line: 210
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/get-audio-duration.md
+            line: 33
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/get-video-dimensions.md
+            line: 40
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/get-video-duration.md
+            line: 33
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/gifs.md
+            line: 28
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/images.md
+            line: 57
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/import-srt-captions.md
+            line: 43
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/lottie.md
+            line: 43
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/maps.md
+            line: 9
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: rules/maps.md
+            line: 41
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/maps.md
+            line: 41
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: rules/maps.md
+            line: 43
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: rules/maps.md
+            line: 46
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: rules/maps.md
+            line: 68
+            category: data_handling
+            references:
+              - 2026-ASI06
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/sfx.md
+            line: 13
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/sfx.md
+            line: 18
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/sfx.md
+            line: 19
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/sfx.md
+            line: 20
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/sfx.md
+            line: 21
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/sfx.md
+            line: 22
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/sfx.md
+            line: 23
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/sfx.md
+            line: 24
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/sfx.md
+            line: 26
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/tailwind.md
+            line: 11
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/transcribe-captions.md
+            line: 10
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: fail
+            summary: Potentially dangerous code execution pattern detected.
+            file: rules/transcribe-captions.md
+            line: 48
+            category: capability_risk
+            references:
+              - 2026-ASI03
+              - 2026-ASI05
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/videos.md
+            line: 36
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: External communication pattern detected.
+            file: rules/voiceover.md
+            line: 32
+            category: external_communication
+            references:
+              - 2026-ASI03
+              - 2026-ASI09
+          - level: warn
+            summary: Sensitive data access or disclosure pattern detected.
+            file: rules/voiceover.md
+            line: 36
+            category: data_handling
+            references:
+              - 2026-ASI06
