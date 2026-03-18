@@ -12,7 +12,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: 'cloudflare-pages'
+  group: "cloudflare-pages"
   cancel-in-progress: false
 
 jobs:
@@ -39,17 +39,18 @@ jobs:
 
       - uses: pnpm/action-setup@v4
         if: ${{ steps.preflight.outputs.enabled == 'true' }}
+        with:
+          version: 10
 
       - uses: actions/setup-node@v6
         if: ${{ steps.preflight.outputs.enabled == 'true' }}
         with:
-          node-version: '24'
-          cache: 'pnpm'
+          node-version: "24"
 
-      - name: Install dependencies
+      - name: Install web dependencies
         if: ${{ steps.preflight.outputs.enabled == 'true' }}
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --dir tools/harbor/web
 
       - name: Deploy to Cloudflare Pages
         if: ${{ steps.preflight.outputs.enabled == 'true' }}
-        run: npx harbor deploy cloudflare-pages
+        run: pnpm --dir tools/harbor/web exec harbor deploy cloudflare-pages --project-root "$GITHUB_WORKSPACE"

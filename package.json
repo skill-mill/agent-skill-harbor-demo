@@ -4,12 +4,16 @@
   "type": "module",
   "scripts": {
     "collect": "harbor collect",
+    "post-collect": "harbor post-collect",
     "build": "harbor build",
     "deploy:cloudflare": "harbor deploy cloudflare-pages",
     "dev": "harbor dev",
     "preview": "harbor preview"
   },
   "dependencies": {
-    "agent-skill-harbor": "^0.12.0"
+    "agent-skill-harbor": ">=0.13.0 <1",
+    "agent-skill-harbor-collector": ">=0.13.0 <1",
+    "agent-skill-harbor-post-collect": ">=0.13.0 <1",
+    "agent-skill-harbor-web": ">=0.13.0 <1"
   }
 }
