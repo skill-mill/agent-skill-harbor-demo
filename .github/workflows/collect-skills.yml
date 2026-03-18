@@ -20,7 +20,7 @@ jobs:
           version: 10
       - uses: actions/setup-node@v6
         with:
-          node-version: '24'
+          node-version: "24"
       - name: Install collector dependencies
         run: pnpm install --dir tools/harbor/collector
 
@@ -36,7 +36,7 @@ jobs:
         id: collect_id
         if: ${{ steps.collect.outcome == 'success' }}
         run: |
-          collect_id="$(grep -m1 '^  collect_id:' data/collects.yaml | awk '{print $2}')"
+          collect_id="$(grep -m1 '^[[:space:]-]*collect_id:' data/collects.yaml | awk '{print $NF}')"
           if [ -z "$collect_id" ]; then
             echo "collect_id not found in data/collects.yaml" >&2
             exit 1
@@ -65,7 +65,7 @@ jobs:
           version: 10
       - uses: actions/setup-node@v6
         with:
-          node-version: '24'
+          node-version: "24"
       - name: Install post-collect dependencies
         run: pnpm install --dir tools/harbor/post-collect
 
