@@ -4,17 +4,17 @@ collector:
     - agent-skill-porter
     - agent-skill-harbor
     - agent-skill-harbor-demo
-    # - sk-azure-integration
-    # - sk-code-quality
-    # - sk-creative-tools
-    # - sk-data-pipeline
-    # - sk-database-patterns
-    # - sk-doc-tools
-    # - sk-mcp-toolkit
-    # - sk-onboarding-kit
-    # - sk-platform-sdk
-    # - sk-security-playbook
-    # - sk-video-production
+    - sk-azure-integration
+    - sk-code-quality
+    - sk-creative-tools
+    - sk-data-pipeline
+    - sk-database-patterns
+    - sk-doc-tools
+    - sk-mcp-toolkit
+    - sk-onboarding-kit
+    - sk-platform-sdk
+    - sk-security-playbook
+    - sk-video-production
   include_origin_repos: true # collect public repositories referenced by _from (1 level, deduped by owner/repo)
   # included_extra_repos: # additional repositories to collect by URL
   #   - https://github.com/owner/repo
