@@ -1,19 +1,15 @@
 {
-  "name": "agent-skill-harbor-demo",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "collect": "harbor collect",
-    "post-collect": "harbor post-collect",
-    "build": "harbor build",
-    "deploy:cloudflare": "harbor deploy cloudflare-pages",
-    "dev": "harbor dev",
-    "preview": "harbor preview"
-  },
-  "dependencies": {
-    "agent-skill-harbor": ">=0.13.0 <1",
-    "agent-skill-harbor-collector": ">=0.13.0 <1",
-    "agent-skill-harbor-post-collect": ">=0.13.0 <1",
-    "agent-skill-harbor-web": ">=0.13.0 <1"
-  }
+	"name": "agent-skill-harbor-demo",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"collect": "node collector/node_modules/agent-skill-harbor-collector/dist/src/runtime/collect-command.js",
+		"post-collect": "node collector/node_modules/agent-skill-harbor-collector/dist/src/runtime/post-collect-command.js",
+		"build": "node node_modules/agent-skill-harbor/dist/src/runtime/build.js",
+		"dev": "node node_modules/agent-skill-harbor/dist/src/runtime/dev.js",
+		"preview": "node node_modules/agent-skill-harbor/dist/src/runtime/preview.js"
+	},
+	"dependencies": {
+		"agent-skill-harbor": ">=0.15.6 <1"
+	}
 }

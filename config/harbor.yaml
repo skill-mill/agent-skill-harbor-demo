@@ -22,8 +22,24 @@ collector:
 
 post_collect:
   plugins:
+    ######## Drift Detect - builtin plugin ########
     - id: builtin.detect-drift
       short_label: Drift
+
+    ######## Audit Skill Scanner - builtin plugin ########
+    # Run `harbor setup builtin.audit-skill-scanner` first.
+    # Then run `pip install -r collector/plugins/builtin.audit-skill-scanner/requirements.txt`.
+    # then uncomment the line below.
+    # - id: builtin.audit-skill-scanner
+    #   short_label: Scanner
+    #   config:
+    #     command: skill-scanner
+    #     options: --policy balanced
+
+    ######## Audit Promptfoo Security - builtin plugin ########
+    # Run `harbor setup builtin.audit-promptfoo-security` first.
+    # Then run `pnpm install --dir collector/plugins/builtin.audit-promptfoo-security`.
+    # Then uncomment the line below.
     #   - id: builtin.audit-promptfoo-security
     #     short_label: Security
     #     config:
@@ -35,16 +51,29 @@ post_collect:
     #         - policy-violation
     #       risk_threshold: 1
     #       critical_threshold: 3
-    - id: builtin.audit-static
-      short_label: Audit
-    - id: sample_plugin
-      short_label: Sample
-  # Generate the sample plugin first: harbor gen sample-plugin
-  # Then uncomment the line above.
+
+    ######## Notify Slack - builtin plugin ########
+    # Additional setup files is not needed in this plugin.
+    # Just uncomment the line below, then set HARBOR_SLACK_WEBHOOK_URL in .env or CI secrets.
+    #   - id: builtin.notify-slack
+    #     short_label: Slack
+    #     config:
+    #       disable_send: false
+    #       use_debug_message: false
+    #       highlight_intents:
+    #         - warn
+    #         - danger
+
+    ######## Exmpel - user defined plugin ########
+    # Generate the example plugin first: harbor setup example-user-defined-plugin
+    # Then uncomment the line below.
+    #   - id: example-user-defined-plugin
+    #     short_label: Example
 
 catalog:
   skill:
     fresh_period_days: 30 # 0 = disable "New" badge
 
-ui:
-  title: Agent Skill Harbor demo
+
+# ui:
+#   title: Agent Skill Harbor

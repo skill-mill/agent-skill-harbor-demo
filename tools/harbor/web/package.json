@@ -1,8 +1,0 @@
-{
-  "private": true,
-  "type": "module",
-  "dependencies": {
-    "agent-skill-harbor": ">=0.13.0 <1",
-    "agent-skill-harbor-web": ">=0.13.0 <1"
-  }
-}

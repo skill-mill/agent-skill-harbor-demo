@@ -9,17 +9,17 @@ repositories:
     skills:
       .claude/skills/css-architecture/SKILL.md:
         tree_sha: 5e641b779016d4f2005bdb90e7e356acac7f9e92
-        updated_at: '2026-03-17T20:41:37.970Z'
-        registered_at: '2026-03-17T20:41:37.970Z'
+        updated_at: '2026-03-25T17:42:05.068Z'
+        registered_at: '2026-03-25T17:42:05.068Z'
       skills/algorithmic-art/SKILL.md:
         tree_sha: 57a7d98d640a260f122b151fc595403e82241565
-        updated_at: '2026-03-17T20:41:39.302Z'
-        registered_at: '2026-03-17T20:41:39.302Z'
+        updated_at: '2026-03-25T17:42:06.495Z'
+        registered_at: '2026-03-25T17:42:06.495Z'
         resolved_from: github.com/anthropics/skills@22db2d1
       skills/frontend-design/SKILL.md:
         tree_sha: cbb7590815f37088a95e38ccc7b4e7753def172f
-        updated_at: '2026-03-17T20:41:39.982Z'
-        registered_at: '2026-03-17T20:41:39.982Z'
+        updated_at: '2026-03-25T17:42:07.214Z'
+        registered_at: '2026-03-25T17:42:07.214Z'
         resolved_from: github.com/anthropics/skills@9289507
   github.com/skill-mill/sk-infra-automation:
     visibility: private
@@ -27,349 +27,185 @@ repositories:
     skills:
       .claude/skills/kubernetes-deploy/SKILL.md:
         tree_sha: bf8296540b4ecd1f25d9aaf327b876bdd822b01d
-        updated_at: '2026-03-17T20:41:41.756Z'
-        registered_at: '2026-03-17T20:41:41.756Z'
+        updated_at: '2026-03-25T17:42:09.629Z'
+        registered_at: '2026-03-25T17:42:09.629Z'
       terraform/code-generation/skills/terraform-style-guide/SKILL.md:
         tree_sha: cae43a24f4a44cd9a1577777a8a291e81b55416c
-        updated_at: '2026-03-17T20:41:42.162Z'
-        registered_at: '2026-03-17T20:41:42.162Z'
+        updated_at: '2026-03-25T17:42:09.960Z'
+        registered_at: '2026-03-25T17:42:09.960Z'
         resolved_from: github.com/hashicorp/agent-skills@41487ea
       terraform/code-generation/skills/terraform-test/SKILL.md:
         tree_sha: 0aaa10b9d4d2f47061a7da0f5969bf059ab12fc4
-        updated_at: '2026-03-17T20:41:42.501Z'
-        registered_at: '2026-03-17T20:41:42.501Z'
+        updated_at: '2026-03-25T17:42:10.844Z'
+        registered_at: '2026-03-25T17:42:10.844Z'
         resolved_from: github.com/hashicorp/agent-skills@4b296f7
-  github.com/skill-mill/sk-doc-tools:
-    visibility: public
-    repo_sha: c6a2ea78213a7d0356e93846b73a484acc76b166
-    skills:
-      .claude/skills/api-docs-generator/SKILL.md:
-        tree_sha: a65ee86ffa6c94858df285dcccdec6b0723cecb4
-        updated_at: '2026-03-17T20:41:44.532Z'
-        registered_at: '2026-03-17T20:41:44.532Z'
-      skills/docx/SKILL.md:
-        tree_sha: 4553e57ac3de173a7711907ac071d331be50d811
-        updated_at: '2026-03-17T20:42:06.237Z'
-        registered_at: '2026-03-17T20:42:06.237Z'
-        resolved_from: github.com/anthropics/skills@a0d2162
-      skills/pdf/SKILL.md:
-        tree_sha: b483b892bd196d7bb9b8892c84dd24016a8cd81d
-        updated_at: '2026-03-17T20:42:09.802Z'
-        registered_at: '2026-03-17T20:42:09.802Z'
-        resolved_from: github.com/anthropics/skills@6369f46
-  github.com/skill-mill/sk-mcp-toolkit:
-    visibility: private
-    repo_sha: f563876de3c1b2356695b7f375c475652f3621d6
-    skills:
-      skills/mcp-builder/SKILL.md:
-        tree_sha: 2babf8fa928692cb7498ad569bea97396772affc
-        updated_at: '2026-03-17T20:42:14.429Z'
-        registered_at: '2026-03-17T20:42:14.429Z'
-        resolved_from: github.com/anthropics/skills@9173e2c
-  github.com/skill-mill/sk-code-quality:
-    visibility: private
-    repo_sha: d382462ec4e7f587df04c912ab80cfedf6256add
-    skills:
-      .claude/skills/code-review-standards/SKILL.md:
-        tree_sha: fbf32b99d3e4c29d8634fd4951814ce376d7b7e5
-        updated_at: '2026-03-17T20:42:16.791Z'
-        registered_at: '2026-03-17T20:42:16.791Z'
-      .claude/skills/linting-guide/SKILL.md:
-        tree_sha: e11f547a03ffae4baeaac6d06a08cde5e639e4b3
-        updated_at: '2026-03-17T20:42:17.198Z'
-        registered_at: '2026-03-17T20:42:17.198Z'
-      skills/webapp-testing/SKILL.md:
-        tree_sha: b6981210579ee9e740c2d0540ee07d38bffa9f67
-        updated_at: '2026-03-17T20:42:19.349Z'
-        registered_at: '2026-03-17T20:42:19.349Z'
-        resolved_from: github.com/anthropics/skills@74cb751
-  github.com/skill-mill/sk-security-playbook:
-    visibility: private
-    repo_sha: 7110b4f604a979f4d8a71824edd49be4640b4846
-    skills:
-      .claude/skills/dependency-scanner/SKILL.md:
-        tree_sha: 8a8e73c6f2f30c8aab75a7ce29eba47ad1bf0790
-        updated_at: '2026-03-17T20:42:21.700Z'
-        registered_at: '2026-03-17T20:42:21.700Z'
-      .claude/skills/secrets-detection/SKILL.md:
-        tree_sha: 7ef96e608dc7cd23a12cedda05d69f14fe573e74
-        updated_at: '2026-03-17T20:42:22.010Z'
-        registered_at: '2026-03-17T20:42:22.010Z'
-      .claude/skills/security-audit/SKILL.md:
-        tree_sha: 8786bdc9998f001f5f576d89fd884dfade7c7faf
-        updated_at: '2026-03-17T20:42:22.303Z'
-        registered_at: '2026-03-17T20:42:22.303Z'
-  github.com/skill-mill/sk-data-pipeline:
-    visibility: private
-    repo_sha: 9d7ac6fdaa1059c8dc3a4778d5c54a09a863e6e2
-    skills:
-      .claude/skills/data-validation/SKILL.md:
-        tree_sha: da6f22631cd9dfaede75e9ba35b511920045cebd
-        updated_at: '2026-03-17T20:42:24.160Z'
-        registered_at: '2026-03-17T20:42:24.160Z'
-      .claude/skills/etl-pipeline/SKILL.md:
-        tree_sha: 71e7d9be8be8258b15e91c192601961b4d4376d7
-        updated_at: '2026-03-17T20:42:24.571Z'
-        registered_at: '2026-03-17T20:42:24.571Z'
-      .claude/skills/sql-optimization/SKILL.md:
-        tree_sha: 8802a90af7c43b06eec2e49d0a1b8711bd71b92a
-        updated_at: '2026-03-17T20:42:24.877Z'
-        registered_at: '2026-03-17T20:42:24.877Z'
   github.com/skill-mill/sk-devops-handbook:
     visibility: private
     repo_sha: ddf642a6cc111a2f427e31b17d75291be71dbe08
     skills:
       .claude/skills/ci-cd-pipeline/SKILL.md:
         tree_sha: 7c919318652efe2ce5c449e8d194bbc4e396e7b5
-        updated_at: '2026-03-17T20:42:26.843Z'
-        registered_at: '2026-03-17T20:42:26.843Z'
+        updated_at: '2026-03-25T17:42:13.051Z'
+        registered_at: '2026-03-25T17:42:13.051Z'
       .claude/skills/docker-best-practices/SKILL.md:
         tree_sha: cedfded5fbb45b3df86d68388c0b1ef11dfc6d0c
-        updated_at: '2026-03-17T20:42:27.232Z'
-        registered_at: '2026-03-17T20:42:27.232Z'
+        updated_at: '2026-03-25T17:42:13.461Z'
+        registered_at: '2026-03-25T17:42:13.461Z'
       packer/builders/skills/aws-ami-builder/SKILL.md:
         tree_sha: a9804880cfa7ffd35ffbe6c79a1d767ced02d94e
-        updated_at: '2026-03-17T20:42:27.644Z'
-        registered_at: '2026-03-17T20:42:27.644Z'
+        updated_at: '2026-03-25T17:42:13.766Z'
+        registered_at: '2026-03-25T17:42:13.766Z'
         resolved_from: github.com/hashicorp/agent-skills@fce3829
-  github.com/skill-mill/sk-onboarding-kit:
-    visibility: private
-    repo_sha: 7196b39e893b5317f303447822e30ee44abfce88
-    skills:
-      .claude/skills/new-dev-setup/SKILL.md:
-        tree_sha: e6ee12d08a71b5d4535745f91fcc2cdbb0df9dd9
-        updated_at: '2026-03-17T20:42:29.894Z'
-        registered_at: '2026-03-17T20:42:29.894Z'
-      .claude/skills/pr-standards/SKILL.md:
-        tree_sha: 0d4726a5acb984a2835a925522f247aa2409fc92
-        updated_at: '2026-03-17T20:42:30.304Z'
-        registered_at: '2026-03-17T20:42:30.304Z'
-      skills/skill-creator/SKILL.md:
-        tree_sha: a69ca6efe6fb59c19e17a098dd0c8d56b2d8b899
-        updated_at: '2026-03-17T20:42:38.190Z'
-        registered_at: '2026-03-17T20:42:38.190Z'
-        resolved_from: github.com/anthropics/skills@98a510d
-  github.com/skill-mill/sk-creative-tools:
-    visibility: private
-    repo_sha: d20608c5fcf813d430a2e8599eac1a2cb0d6ebb4
-    skills:
-      .claude/skills/svg-generator/SKILL.md:
-        tree_sha: bb5f4a054bb23d3a155cd65e662e17de4c4dcc42
-        updated_at: '2026-03-17T20:42:40.238Z'
-        registered_at: '2026-03-17T20:42:40.238Z'
-      skills/pptx/SKILL.md:
-        tree_sha: 724acd5db0b4cd87ae5c8e67a562c3b5d8a67e18
-        updated_at: '2026-03-17T20:43:05.530Z'
-        registered_at: '2026-03-17T20:43:05.530Z'
-        resolved_from: github.com/anthropics/skills@10b3d70
-      skills/xlsx/SKILL.md:
-        tree_sha: 768220daefdd997db21b6eaa6a934a6b0d1fdce0
-        updated_at: '2026-03-17T20:43:27.245Z'
-        registered_at: '2026-03-17T20:43:27.245Z'
-        resolved_from: github.com/anthropics/skills@f5fb1cd
-  github.com/skill-mill/sk-azure-integration:
-    visibility: private
-    repo_sha: 780cc826dbd605fcdf5d3bd1f881762b1df57cb4
-    skills:
-      .github/plugins/azure-sdk-typescript/skills/azure-ai-projects-ts/SKILL.md:
-        tree_sha: 5c9712d7a7c6610c06e8a030027a3414ac12be02
-        updated_at: '2026-03-17T20:43:30.846Z'
-        registered_at: '2026-03-17T20:43:30.846Z'
-      .github/plugins/azure-sdk-typescript/skills/azure-cosmos-ts/SKILL.md:
-        tree_sha: 7610de9d1531272a8ed8bf65ec6b153e51795b9e
-        updated_at: '2026-03-17T20:43:32.583Z'
-        registered_at: '2026-03-17T20:43:32.583Z'
-  github.com/skill-mill/sk-video-production:
-    visibility: private
-    repo_sha: ace3b8a4e7ba0b2d3f5f531d5cbdea504dc68b88
-    skills:
-      .claude/skills/video-editing-guide/SKILL.md:
-        tree_sha: 90bc5ae5e091db903b3c30d634499aa0c97bddc0
-        updated_at: '2026-03-17T20:43:34.648Z'
-        registered_at: '2026-03-17T20:43:34.648Z'
-      skills/remotion/SKILL.md:
-        tree_sha: d039623b97ee76e074e98008df6c571c26499a4d
-        updated_at: '2026-03-17T20:43:50.485Z'
-        registered_at: '2026-03-17T20:43:50.485Z'
-        resolved_from: github.com/remotion-dev/skills@6669806
   github.com/skill-mill/sk-ai-dev-tools:
     visibility: private
     repo_sha: 36ff87c6ad301f133a8468db2f7e1c5672fb9b54
     skills:
       .claude/skills/prompt-engineering/SKILL.md:
         tree_sha: a39eaa1bfda7336964f1fc30be7cdd6525223908
-        updated_at: '2026-03-17T20:43:52.737Z'
-        registered_at: '2026-03-17T20:43:52.737Z'
+        updated_at: '2026-03-25T17:42:15.820Z'
+        registered_at: '2026-03-25T17:42:15.820Z'
       skills/doc-coauthoring/SKILL.md:
         tree_sha: 8f9e73bcb5e28b981b150c49295ee97c1f825bd5
-        updated_at: '2026-03-17T20:43:53.148Z'
-        registered_at: '2026-03-17T20:43:53.148Z'
+        updated_at: '2026-03-25T17:42:16.125Z'
+        registered_at: '2026-03-25T17:42:16.125Z'
         resolved_from: github.com/anthropics/skills@d9df960
-  github.com/skill-mill/sk-database-patterns:
-    visibility: private
-    repo_sha: 5cccdc6fca40e9616f7d31d5bd3f4c9c4ad08a90
-    skills:
-      .claude/skills/migration-strategy/SKILL.md:
-        tree_sha: 60ab74554efc04fe33309fd1ebc1696bba885fe8
-        updated_at: '2026-03-17T20:43:55.195Z'
-        registered_at: '2026-03-17T20:43:55.195Z'
-      .claude/skills/schema-design/SKILL.md:
-        tree_sha: 0e6b0964d3e12b87ea5e3d8773b358413687225d
-        updated_at: '2026-03-17T20:43:55.604Z'
-        registered_at: '2026-03-17T20:43:55.604Z'
-  github.com/skill-mill/sk-platform-sdk:
-    visibility: private
-    repo_sha: 4d6af0d9d07256de08911414cbf9133de3675a6e
-    skills:
-      .claude/skills/api-gateway-config/SKILL.md:
-        tree_sha: f8b87c9168d2463a61a3be4503f0d14b703b412b
-        updated_at: '2026-03-17T20:43:57.753Z'
-        registered_at: '2026-03-17T20:43:57.753Z'
-      .claude/skills/sdk-client-generator/SKILL.md:
-        tree_sha: 4d69919f954e11e8a4a6660d3cc24b9c98b80d4a
-        updated_at: '2026-03-17T20:43:58.164Z'
-        registered_at: '2026-03-17T20:43:58.164Z'
   github.com/anthropics/skills:
     visibility: public
-    repo_sha: b0cbd3df1533b396d281a6886d5132f623393a9c
+    repo_sha: 98669c11ca63e9c81c11501e1437e5c47b556621
     skills:
       skills/algorithmic-art/SKILL.md:
         tree_sha: 22db2d12091c56340987a877047435ba84a1cdb2
-        updated_at: '2026-03-17T20:44:02.362Z'
-        registered_at: '2026-03-17T20:44:02.362Z'
+        updated_at: '2026-03-25T17:42:20.117Z'
+        registered_at: '2026-03-25T17:42:20.117Z'
       skills/brand-guidelines/SKILL.md:
         tree_sha: 7dc45f289fa37f9763a993008d9500e9a157fa4a
-        updated_at: '2026-03-17T20:44:03.183Z'
-        registered_at: '2026-03-17T20:44:03.183Z'
+        updated_at: '2026-03-25T17:42:20.813Z'
+        registered_at: '2026-03-25T17:42:20.813Z'
       skills/canvas-design/SKILL.md:
         tree_sha: 928af0a3279dc4e0c0e6ceaf407a8542a2bb2aa2
-        updated_at: '2026-03-17T20:45:01.149Z'
-        registered_at: '2026-03-17T20:45:01.149Z'
+        updated_at: '2026-03-25T17:43:12.978Z'
+        registered_at: '2026-03-25T17:43:12.978Z'
       skills/claude-api/SKILL.md:
-        tree_sha: 1b3d6cb72f7f20ad60f6c73e7dca729193e8f982
-        updated_at: '2026-03-17T20:45:11.176Z'
-        registered_at: '2026-03-17T20:45:11.176Z'
+        tree_sha: 5a67769c8d12b9eb00c840ccc9e74a37d9d2a3c9
+        updated_at: '2026-03-25T17:43:23.506Z'
+        registered_at: '2026-03-25T17:43:23.506Z'
       skills/doc-coauthoring/SKILL.md:
         tree_sha: d9df960e61fe2bafe9183e37de6f9f6b73b74087
-        updated_at: '2026-03-17T20:45:11.459Z'
-        registered_at: '2026-03-17T20:45:11.459Z'
+        updated_at: '2026-03-25T17:43:23.913Z'
+        registered_at: '2026-03-25T17:43:23.913Z'
       skills/docx/SKILL.md:
         tree_sha: a0d216202f9793a78da44cf96aabe48f42e627ac
-        updated_at: '2026-03-17T20:45:36.159Z'
-        registered_at: '2026-03-17T20:45:36.159Z'
+        updated_at: '2026-03-25T17:43:49.410Z'
+        registered_at: '2026-03-25T17:43:49.410Z'
       skills/frontend-design/SKILL.md:
         tree_sha: 928950704df8a8b885c03de5da626331e6f29cf8
-        updated_at: '2026-03-17T20:45:36.983Z'
-        registered_at: '2026-03-17T20:45:36.983Z'
+        updated_at: '2026-03-25T17:43:50.231Z'
+        registered_at: '2026-03-25T17:43:50.231Z'
       skills/internal-comms/SKILL.md:
         tree_sha: 8e2c21adc81f221477a4d3ecec07abcbc8a9320a
-        updated_at: '2026-03-17T20:45:39.848Z'
-        registered_at: '2026-03-17T20:45:39.848Z'
+        updated_at: '2026-03-25T17:43:52.891Z'
+        registered_at: '2026-03-25T17:43:52.891Z'
       skills/mcp-builder/SKILL.md:
         tree_sha: 9173e2c2107aac82d4ca6c726d71e89d11760470
-        updated_at: '2026-03-17T20:45:43.636Z'
-        registered_at: '2026-03-17T20:45:43.636Z'
+        updated_at: '2026-03-25T17:43:57.807Z'
+        registered_at: '2026-03-25T17:43:57.807Z'
       skills/pdf/SKILL.md:
         tree_sha: 6369f4649de69bd6857c9bc3b058a77206009238
-        updated_at: '2026-03-17T20:45:48.245Z'
-        registered_at: '2026-03-17T20:45:48.245Z'
+        updated_at: '2026-03-25T17:44:02.210Z'
+        registered_at: '2026-03-25T17:44:02.210Z'
       skills/pptx/SKILL.md:
         tree_sha: 10b3d70962e489867ddfee7da92f7da6b0eccc4f
-        updated_at: '2026-03-17T20:46:11.081Z'
-        registered_at: '2026-03-17T20:46:11.081Z'
+        updated_at: '2026-03-25T17:44:26.172Z'
+        registered_at: '2026-03-25T17:44:26.172Z'
       skills/skill-creator/SKILL.md:
         tree_sha: 98a510d1cfef9f82c3b1eec200229ca68725e613
-        updated_at: '2026-03-17T20:46:17.842Z'
-        registered_at: '2026-03-17T20:46:17.842Z'
+        updated_at: '2026-03-25T17:44:34.369Z'
+        registered_at: '2026-03-25T17:44:34.369Z'
       skills/slack-gif-creator/SKILL.md:
         tree_sha: d5cd683598c6ac0174bdb3b3b5be1dfc35430c12
-        updated_at: '2026-03-17T20:46:20.260Z'
-        registered_at: '2026-03-17T20:46:20.260Z'
+        updated_at: '2026-03-25T17:44:37.153Z'
+        registered_at: '2026-03-25T17:44:37.153Z'
       skills/theme-factory/SKILL.md:
         tree_sha: 007940e80de6ae577a87b2b343b1a5eae715df2b
-        updated_at: '2026-03-17T20:46:26.541Z'
-        registered_at: '2026-03-17T20:46:26.541Z'
+        updated_at: '2026-03-25T17:44:43.581Z'
+        registered_at: '2026-03-25T17:44:43.581Z'
       skills/web-artifacts-builder/SKILL.md:
         tree_sha: 9ecbeae7c17caa478c5b753ba1bd258688075b5f
-        updated_at: '2026-03-17T20:46:30.671Z'
-        registered_at: '2026-03-17T20:46:30.671Z'
+        updated_at: '2026-03-25T17:44:45.607Z'
+        registered_at: '2026-03-25T17:44:45.607Z'
       skills/webapp-testing/SKILL.md:
         tree_sha: 74cb751576f9e9af2aedff47e67861ef26db2dc4
-        updated_at: '2026-03-17T20:46:32.682Z'
-        registered_at: '2026-03-17T20:46:32.682Z'
+        updated_at: '2026-03-25T17:44:48.283Z'
+        registered_at: '2026-03-25T17:44:48.283Z'
       skills/xlsx/SKILL.md:
         tree_sha: f5fb1cdb7993b2feee8367e983e9d4d58d2eedd4
-        updated_at: '2026-03-17T20:46:56.350Z'
-        registered_at: '2026-03-17T20:46:56.350Z'
+        updated_at: '2026-03-25T17:45:11.232Z'
+        registered_at: '2026-03-25T17:45:11.232Z'
       template/SKILL.md:
         tree_sha: a38aa7fa73fd2835b9ce77a60274f7dc62d015a6
-        updated_at: '2026-03-17T20:46:56.748Z'
-        registered_at: '2026-03-17T20:46:56.748Z'
+        updated_at: '2026-03-25T17:45:11.556Z'
+        registered_at: '2026-03-25T17:45:11.556Z'
   github.com/hashicorp/agent-skills:
     visibility: public
-    repo_sha: 876a095c71079e4c112fb1de2f1a66dca0ffea23
+    repo_sha: 9f2ede91f6eb72780c5fd787b3b1720623626dfb
     skills:
       packer/builders/skills/aws-ami-builder/SKILL.md:
         tree_sha: fce382924e5a3a407ac97648e8e7aeee6fe54c7f
-        updated_at: '2026-03-17T20:46:59.735Z'
-        registered_at: '2026-03-17T20:46:59.735Z'
+        updated_at: '2026-03-25T17:45:14.203Z'
+        registered_at: '2026-03-25T17:45:14.203Z'
       packer/builders/skills/azure-image-builder/SKILL.md:
         tree_sha: 5dae54a6382f79b9bbd3fef863c51d20048033ad
-        updated_at: '2026-03-17T20:47:00.128Z'
-        registered_at: '2026-03-17T20:47:00.128Z'
+        updated_at: '2026-03-25T17:45:14.494Z'
+        registered_at: '2026-03-25T17:45:14.494Z'
       packer/builders/skills/windows-builder/SKILL.md:
         tree_sha: 4e4f898c1ea5da004b143dbd03cab934b5162abc
-        updated_at: '2026-03-17T20:47:00.538Z'
-        registered_at: '2026-03-17T20:47:00.538Z'
+        updated_at: '2026-03-25T17:45:14.921Z'
+        registered_at: '2026-03-25T17:45:14.921Z'
       packer/hcp/skills/push-to-registry/SKILL.md:
         tree_sha: 2fb3b434e9801b45c577dd33fb6af69f058b18b8
-        updated_at: '2026-03-17T20:47:00.948Z'
-        registered_at: '2026-03-17T20:47:00.948Z'
+        updated_at: '2026-03-25T17:45:15.333Z'
+        registered_at: '2026-03-25T17:45:15.333Z'
       terraform/code-generation/skills/azure-verified-modules/SKILL.md:
         tree_sha: 571ad476a6280c3ef1fc4781d7ee7ae41dfa0917
-        updated_at: '2026-03-17T20:47:01.367Z'
-        registered_at: '2026-03-17T20:47:01.367Z'
+        updated_at: '2026-03-25T17:45:16.867Z'
+        registered_at: '2026-03-25T17:45:16.867Z'
       terraform/code-generation/skills/terraform-search-import/SKILL.md:
         tree_sha: 118584053e8bc890fa5995e74a37cbe0d2b65f02
-        updated_at: '2026-03-17T20:47:02.482Z'
-        registered_at: '2026-03-17T20:47:02.482Z'
+        updated_at: '2026-03-25T17:45:18.291Z'
+        registered_at: '2026-03-25T17:45:18.291Z'
       terraform/code-generation/skills/terraform-style-guide/SKILL.md:
         tree_sha: 41487ea35027d0ca9930aed05d16840209e0a181
-        updated_at: '2026-03-17T20:47:02.891Z'
-        registered_at: '2026-03-17T20:47:02.891Z'
+        updated_at: '2026-03-25T17:45:18.702Z'
+        registered_at: '2026-03-25T17:45:18.702Z'
       terraform/code-generation/skills/terraform-test/SKILL.md:
         tree_sha: 4b296f72fefb4891ec985cd7f459599e269301e6
-        updated_at: '2026-03-17T20:47:03.347Z'
-        registered_at: '2026-03-17T20:47:03.347Z'
+        updated_at: '2026-03-25T17:45:19.168Z'
+        registered_at: '2026-03-25T17:45:19.168Z'
       terraform/module-generation/skills/refactor-module/SKILL.md:
         tree_sha: f0abaa84ffa8642ee10bac6b6c1e7c32b72461f2
-        updated_at: '2026-03-17T20:47:03.713Z'
-        registered_at: '2026-03-17T20:47:03.713Z'
+        updated_at: '2026-03-25T17:45:19.553Z'
+        registered_at: '2026-03-25T17:45:19.553Z'
       terraform/module-generation/skills/terraform-stacks/SKILL.md:
         tree_sha: fe0a231fee7958eead13cd9562fbe530b6f568a0
-        updated_at: '2026-03-17T20:47:06.290Z'
-        registered_at: '2026-03-17T20:47:06.290Z'
+        updated_at: '2026-03-25T17:45:23.314Z'
+        registered_at: '2026-03-25T17:45:23.314Z'
       terraform/provider-development/skills/new-terraform-provider/SKILL.md:
         tree_sha: 2b258cde22c359339ae8686e1ef3f60f7ef1e1f0
-        updated_at: '2026-03-17T20:47:06.987Z'
-        registered_at: '2026-03-17T20:47:06.987Z'
+        updated_at: '2026-03-25T17:45:24.026Z'
+        registered_at: '2026-03-25T17:45:24.026Z'
       terraform/provider-development/skills/provider-actions/SKILL.md:
         tree_sha: 909bb594d085e012510d9bf92a4934b4c9d76079
-        updated_at: '2026-03-17T20:47:07.285Z'
-        registered_at: '2026-03-17T20:47:07.285Z'
+        updated_at: '2026-03-25T17:45:24.333Z'
+        registered_at: '2026-03-25T17:45:24.333Z'
       terraform/provider-development/skills/provider-resources/SKILL.md:
         tree_sha: 56905fc58fc182a14e2e753dcb644479b398d7ee
-        updated_at: '2026-03-17T20:47:07.606Z'
-        registered_at: '2026-03-17T20:47:07.606Z'
+        updated_at: '2026-03-25T17:45:24.643Z'
+        registered_at: '2026-03-25T17:45:24.643Z'
+      terraform/provider-development/skills/provider-test-patterns/SKILL.md:
+        tree_sha: 8d89dacbeae9ecfb05ee7b4c8331fc119f6a45aa
+        updated_at: '2026-03-25T17:45:26.073Z'
+        registered_at: '2026-03-25T17:45:26.073Z'
       terraform/provider-development/skills/run-acceptance-tests/SKILL.md:
         tree_sha: 675112f945c8668ab68e616a4d8744e74c821eb6
-        updated_at: '2026-03-17T20:47:07.898Z'
-        registered_at: '2026-03-17T20:47:07.898Z'
-  github.com/remotion-dev/skills:
-    visibility: public
-    repo_sha: 937ffb32b148fdceef4b4184f975a708aab8d560
-    skills:
-      skills/remotion/SKILL.md:
-        tree_sha: 666980630dc910c6b623f3bab13280af47d6995e
-        updated_at: '2026-03-17T20:47:25.377Z'
-        registered_at: '2026-03-17T20:47:25.377Z'
+        updated_at: '2026-03-25T17:45:26.380Z'
+        registered_at: '2026-03-25T17:45:26.380Z'
