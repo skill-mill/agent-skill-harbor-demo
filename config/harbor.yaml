@@ -74,6 +74,5 @@ catalog:
   skill:
     fresh_period_days: 30 # 0 = disable "New" badge
 
-
-# ui:
-#   title: Agent Skill Harbor
+ui:
+  title: Demo - Agent Skill Harbor
