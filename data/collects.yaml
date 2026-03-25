@@ -28,3 +28,228 @@
       repos_with_skills: 2
       skills: 33
       files: 393
+- collect_id: b7c3e1a2-4f6d-49a8-b5e2-8c1d3f7a9b04
+  collecting:
+    collected_at: '2026-03-18T09:12:44.312Z'
+    duration_sec: 195
+  statistics:
+    org:
+      repos: 5
+      repos_with_skills: 4
+      skills: 11
+      files: 15
+    community:
+      repos: 2
+      repos_with_skills: 2
+      skills: 31
+      files: 387
+- collect_id: 4e8a2d6f-1b3c-4a7e-9d5f-2c6b8e0a4f12
+  collecting:
+    collected_at: '2026-03-11T14:33:08.771Z'
+    duration_sec: 218
+  statistics:
+    org:
+      repos: 5
+      repos_with_skills: 4
+      skills: 10
+      files: 14
+    community:
+      repos: 2
+      repos_with_skills: 2
+      skills: 31
+      files: 387
+- collect_id: d1f5a7b3-6e2c-48d9-a4b1-9f3e7c5d0a82
+  collecting:
+    collected_at: '2026-03-04T11:05:52.489Z'
+    duration_sec: 183
+  statistics:
+    org:
+      repos: 5
+      repos_with_skills: 3
+      skills: 9
+      files: 12
+    community:
+      repos: 2
+      repos_with_skills: 2
+      skills: 30
+      files: 381
+- collect_id: 8c4b2e9a-3d7f-4516-b8a6-1e5c9d2f7b30
+  collecting:
+    collected_at: '2026-02-25T08:22:17.654Z'
+    duration_sec: 201
+  statistics:
+    org:
+      repos: 4
+      repos_with_skills: 3
+      skills: 9
+      files: 12
+    community:
+      repos: 2
+      repos_with_skills: 2
+      skills: 30
+      files: 381
+- collect_id: 5a1d8f3e-9c4b-42a7-b6e0-3f2a7d5c1e98
+  collecting:
+    collected_at: '2026-02-18T16:48:33.102Z'
+    duration_sec: 176
+  statistics:
+    org:
+      repos: 4
+      repos_with_skills: 3
+      skills: 8
+      files: 11
+    community:
+      repos: 2
+      repos_with_skills: 2
+      skills: 28
+      files: 370
+- collect_id: 2f7c9b4a-8e1d-4053-a3d6-6b0e5f8a2c47
+  collecting:
+    collected_at: '2026-02-11T13:15:41.887Z'
+    duration_sec: 189
+  statistics:
+    org:
+      repos: 4
+      repos_with_skills: 3
+      skills: 8
+      files: 11
+    community:
+      repos: 2
+      repos_with_skills: 2
+      skills: 28
+      files: 370
+- collect_id: e3a6d0b5-7f2c-4e19-8b4a-c1d9f5e3a072
+  collecting:
+    collected_at: '2026-02-04T10:37:59.443Z'
+    duration_sec: 162
+  statistics:
+    org:
+      repos: 4
+      repos_with_skills: 3
+      skills: 7
+      files: 10
+    community:
+      repos: 1
+      repos_with_skills: 1
+      skills: 22
+      files: 298
+- collect_id: 7b5e2c8d-4a1f-4d36-9e7b-0f3a6c9d5e21
+  collecting:
+    collected_at: '2026-01-28T07:54:22.016Z'
+    duration_sec: 155
+  statistics:
+    org:
+      repos: 4
+      repos_with_skills: 2
+      skills: 6
+      files: 8
+    community:
+      repos: 1
+      repos_with_skills: 1
+      skills: 22
+      files: 298
+- collect_id: c9d4f1a6-2b8e-4c75-a0d3-5e7b9f1c3a84
+  collecting:
+    collected_at: '2026-01-21T15:21:07.538Z'
+    duration_sec: 143
+  statistics:
+    org:
+      repos: 3
+      repos_with_skills: 2
+      skills: 6
+      files: 8
+    community:
+      repos: 1
+      repos_with_skills: 1
+      skills: 20
+      files: 275
+- collect_id: a2e8b5d1-6c3f-4a92-b7e4-8d0f2a5c9b63
+  collecting:
+    collected_at: '2026-01-14T12:08:34.921Z'
+    duration_sec: 138
+  statistics:
+    org:
+      repos: 3
+      repos_with_skills: 2
+      skills: 5
+      files: 7
+    community:
+      repos: 1
+      repos_with_skills: 1
+      skills: 18
+      files: 251
+- collect_id: 6d0a3f7c-9e5b-4218-8c1a-4b2e6f8d0a35
+  collecting:
+    collected_at: '2026-01-07T09:42:51.276Z'
+    duration_sec: 129
+  statistics:
+    org:
+      repos: 3
+      repos_with_skills: 2
+      skills: 5
+      files: 7
+    community:
+      repos: 1
+      repos_with_skills: 1
+      skills: 15
+      files: 210
+- collect_id: 1c8e4a2b-5d7f-4b63-a9e0-7f3c1d5b8a46
+  collecting:
+    collected_at: '2025-12-31T17:29:15.684Z'
+    duration_sec: 112
+  statistics:
+    org:
+      repos: 3
+      repos_with_skills: 1
+      skills: 3
+      files: 4
+    community:
+      repos: 1
+      repos_with_skills: 1
+      skills: 12
+      files: 178
+- collect_id: f4b7d9e0-3a6c-4185-b2d8-9e1f5c7a0b23
+  collecting:
+    collected_at: '2025-12-24T14:03:48.159Z'
+    duration_sec: 98
+  statistics:
+    org:
+      repos: 2
+      repos_with_skills: 1
+      skills: 3
+      files: 4
+    community:
+      repos: 1
+      repos_with_skills: 1
+      skills: 10
+      files: 142
+- collect_id: 3e5a8c1d-7b2f-4d90-a6e3-0c4b9f2d7e58
+  collecting:
+    collected_at: '2025-12-17T10:51:32.803Z'
+    duration_sec: 87
+  statistics:
+    org:
+      repos: 2
+      repos_with_skills: 1
+      skills: 2
+      files: 3
+    community:
+      repos: 1
+      repos_with_skills: 1
+      skills: 8
+      files: 115
+- collect_id: 9f2d6b4e-1c8a-4e57-b3d0-5a7e9c1f4b82
+  collecting:
+    collected_at: '2025-12-10T08:17:04.437Z'
+    duration_sec: 74
+  statistics:
+    org:
+      repos: 2
+      repos_with_skills: 1
+      skills: 2
+      files: 3
+    community:
+      repos: 1
+      repos_with_skills: 1
+      skills: 8
+      files: 115
